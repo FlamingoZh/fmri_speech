@@ -46,4 +46,4 @@ Now everything is set. Make sure you have activated the conda environment (you s
 jupyter lab
 ```
 
-This command should open a new window in the browser, where you can open `SpeechModelTutorial.ipynb` from the Jupyter file browser on the left.
+This command should open a new window in the browser, where you can open `SpeechModel.ipynb` from the Jupyter file browser on the left.
