@@ -1,0 +1,15 @@
+Q1: In your own words, explain how the semantic model transforms words into 985-dimensional vectors. If a vector has a high value on a specific dimension, what does that mean?
+
+Q2: Choose a new word and see what the model comes up with. Does the output make sense to you?
+
+Q3: In your own words, explain how we align fMRI data with words temporally.
+
+Q4: Explain the figure you got above. Specify what x axis and y axis represent.
+
+Q5: In your own words, explain what problem is addressed by FIR model and how the model addresses it.
+
+Q6: We are predicting something from something. What are these? In other words, what are the inputs and outputs of the regression model? Be as specific as possible.
+
+Q7: Based on the analysis you conducted, which parts of the brain respond to natural narrative speech stimuli?
+
+Q8: Do you see similarities among words that are preferred by the same voxel? What does that imply?

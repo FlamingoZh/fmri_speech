@@ -1,4 +1,4 @@
-# Speech Model Tutorial
+# Modeling the Representation of Speech in the Brain
 
 In this tutorial you will step through a voxel-wise modeling analysis. You will use computational models to extract semantic features from a natural speech stimulus. Then these features will be used to build linear models of fMRI data, and model weights and prediction performance will be visualized.
 
@@ -6,7 +6,7 @@ In this tutorial you will step through a voxel-wise modeling analysis. You will 
 
 ## Downloading Git repo to your local computer
 
-The very first thing to start with is to download this Git repository to your local computer. The easiest way is to click the green `Code` button at the top right of the repo, select `Download ZIP`, and unzip it. Alternatively, you can use
+The very first thing to do is to download this Git repository to your local computer. The easiest way is to click the green `Code` button at the top right of the repo, select `Download ZIP`, and unzip it. Alternatively, you can use
 ```bash
 git clone git@github.com:FlamingoZh/fmri_speech.git
 ```
@@ -22,7 +22,7 @@ The fMRI data used in this tutorial was collected by Alex Huth and Wendy de Heer
 
 ## Using Conda to manage Python packages
 
-Conda is an open source package and environment management system that allows you to create multiple standalone Python envrionments on your computer and automatically resolves package dependencies. We recommend installing Miniconda, a mini version of Anaconda that includes only conda, Python, and a small number of essential packages. If you already have Anaconda installed on your computer, there is no need to install Miniconda.
+Conda is an open source package and environment management system that allows you to create multiple standalone Python envrionments on your computer and automatically resolves package dependencies. I recommend installing Miniconda, a mini version of Anaconda that includes only conda, Python, and a small number of essential packages. If you already have Anaconda installed on your computer, there is no need to install Miniconda.
 
 You can find Miniconda installers from [this page](https://docs.conda.io/en/latest/miniconda.html#installing). If you use Windows, just double-click the downloaded `.exe` file and use default settings. For installation on MacOS or Linux, you can refer to instructions for [MacOS](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) and [Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html). Feel free to drop an email to Yuchen Zhou (zhouyuchen@cmu.edu) if you have any questions.
 
@@ -36,9 +36,9 @@ conda activate fmri_speech   # activate the environment
 conda install numpy scipy matplotlib jupyterlab pytables   # install some Python packages
 pip install pycortex   # install pycortex using pip (because it is not available in conda)
 ```
-Again, feel free to drop an email to Yuchen Zhou (zhouyuchen@cmu.edu) if you encounter any problems.
+Again, feel free to drop an email to me (zhouyuchen@cmu.edu) if you encounter any problems.
 
-## Launching Jupyter Lab to start exploring the code
+## Launching Jupyter Lab and run the code
 
 Now everything is set. Make sure you have activated the conda environment (you should see something like `(fmri_speech) username ~ %` in your Anaconda prompt or terminal, if not, enter ``conda activate fmri_speech``), then use ``cd`` command to navigate to the downloaded git repo, and run 
 
@@ -46,4 +46,4 @@ Now everything is set. Make sure you have activated the conda environment (you s
 jupyter lab
 ```
 
-This command should direct you to a new window in the browser, where you can open `SpeechModelTutorial.ipynb` from the Jupyter file browser on the left.
+This command should open a new window in the browser, where you can open `SpeechModelTutorial.ipynb` from the Jupyter file browser on the left.
